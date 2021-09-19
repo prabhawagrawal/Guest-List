@@ -1,0 +1,50 @@
+#heading{
+    font-family: 'Akronim', cursive;
+    font-size: 41px;
+}
+
+#array-display_area{
+    font-family: Calibri, sans-serif;
+}
+
+#submit_button{
+    background-color: red;
+    border: none;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#submit_button:hover{
+    background-color: #ff4d4d;
+}
+
+#name{
+    height: 20px;
+    width: 200px;
+}
+
+#sort{
+    background-color: #1100ff;
+    border: none;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#sort:hover{
+    background-color: #4a50ff;
+}
+
+#search-input{
+    height: 20px;
+    width: 200px;
+}
+
+#search{
+    height: 27px;
+}

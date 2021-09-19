@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Guest List</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <center>
+
+        <h1 style="margin-top: 20px; margin-bottom: 20px;" id="heading">Guest List</h1>
+
+        <br><br><br>
+
+        <div id="rows">
+
+            <input type="text" placeholder="Enter name" id="name">
+            <br><br>
+            <button onclick="submit()" id="submit_button">Submit</button>
+
+            <br><br>
+
+            <h3 id="array-display_area">The Guest list will appear here once you add a name</h3>
+
+            <br><br>
+
+            <button onclick="sorting()" id="sort">Sort</button>
+
+            <br><br><br><br>
+
+            <input type="text" placeholder="Search name" id="search-input">&nbsp;
+	        <button onclick="searching()" id="search">🔎</button>
+
+            <h3 id="result"></h3>
+                
+        </div>
+
+    </center>
+
+</body>
+
+</html>
